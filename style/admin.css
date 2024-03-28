@@ -1,0 +1,207 @@
+*{
+--  margin: 0;
+--  PADDING:0;
+}
+
+.menuGor {
+         background-image: url(/img/menu.gif);
+         background-repeat: repeat-x;
+         font-size: 13px;
+         font-family:  Verdana, Arial, Helvetica, sans-serif;
+         color: #003a66;
+
+}
+
+.menuGor td {
+        background-position: center center;
+        text-align: center;
+
+
+}
+.menuGor td a
+       {
+
+        color: #003a66;
+        text-decoration: none;
+       }
+.menuGor td a:hover
+       {
+        color: #066600;
+        text-decoration: underline;
+
+     }
+.menuleft {
+        font-family: "Times New Roman", Times, serif;
+        color: #FFFFFF;
+        --background-image: url(/img/menuleftgrad.gif);
+        --vertical-align: middle;
+        background-color:#DAE6EF;
+        -- background-position: left center;
+        -- background-repeat: no-repeat;
+        text-align: left;
+        vertical-align:middle;
+        --text-decoration: underline;
+        --display: block;
+        padding-left: 0px;
+        margin-left: 0px;
+        text-indent: 20px;
+}
+
+
+.menu1 {
+        color: #003a66;
+        text-decoration: none;
+        padding-left:0px
+        list-style-type: none;
+        vertical-align: text-bottom;
+        text-align: left;
+      }
+.menu1 td {
+        padding: 0px 5px 10px 20px;
+
+}
+.menu1 td:hover {
+        --display:block;
+        color: #FFFFFF;
+}
+
+
+.menu1 td a {
+        color: #003a66;
+        font-size: 13px;
+        text-decoration: none;
+        float: none;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+       -- height: 30px;
+}
+
+.menu1 td a:hover {
+        color: #066600;
+        text-decoration: underline;
+}
+
+
+.menu:link
+        {
+                color: #000000;
+                text-decoration: none;
+        }
+
+.menu:visited
+        {
+                color: #000000;
+                text-decoration: none;
+        }
+
+.menu:hover
+        {
+         font-size: 13px;
+         color: #000000;
+         text-decoration: underline;
+        }
+
+.menu:active
+        {
+                color: #000000;
+                text-decoration: none;
+        }
+.ondark:link
+        {
+                color: #00FFFF;
+                text-decoration: none;
+        }
+
+.ondark:visited
+        {
+                color: #00FFFF;
+                text-decoration: none;
+        }
+
+
+.noscreen {display:none;}
+input {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #ffffff;
+}
+textarea {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        background-color: #ffffff;
+}
+select {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        border: 4px solid #0a246a;
+        background-color: #efefef;
+}
+textarea {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        border: 1px solid #0a246a;
+     align: center;
+}
+
+.Table1 {
+        padding: 20px;
+        vertical-align: top;
+        background-image: url(/img/tableleft.gif);
+        background-position: left;
+        background-repeat: repeat-y;
+}
+.zag
+{
+        font-family: Verdana, Times, serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        color:#003a66;
+
+}
+
+.Textable {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: justify;
+		padding:10px;
+        color: #003a66;
+}
+
+.technology{ /*header of 2nd demo*/
+cursor: hand;
+cursor: pointer;
+font: bold 14px Verdana;
+margin: 10px 0;
+}
+
+
+.openlanguage{ /*class added to contents of 2nd demo when they are open*/
+color: #066600;
+font-size: 14px;
+font-weight: bold;
+}
+
+.closedlanguage{ /*class added to contents of 2nd demo when they are closed*/
+color: #003a66;
+font-size: 14px;
+font-weight: normal;
+}
+
+.p {font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   line-height: 20px;
+   text-align: justify;}
+   
+.tel {font-size: 13px;
+      line-height: 15px;
+	  font-weight: bold;} 
+  
